@@ -1,5 +1,7 @@
 📊 Food Marketing Analytics — Customer Segmentation
+
 End-to-end marketing analytics project focused on customer value segmentation and data-driven targeting decisions.
+
 🚀 Why This Project
 
 Marketing teams often run blanket campaigns without knowing:
@@ -10,21 +12,26 @@ Marketing teams often run blanket campaigns without knowing:
 
 🎯 Which customers should (or should not) be targeted
 
-This project solves that problem using EDA + customer segmentation.
+This project solves that problem using Exploratory Data Analysis (EDA) and customer segmentation.
 
 🧠 What I Did (Quick Scan)
 
-✅ Cleaned and engineered customer features (Age, Total Spend, Recency, Household)
+✅ Cleaned and engineered customer features
+(Age, Total Spend, Recency, Household structure)
+
 ✅ Performed focused EDA to identify revenue and behavior patterns
-✅ Segmented customers using K-Means
+
+✅ Segmented customers using K-Means clustering
+
 ✅ Translated clusters into business-ready personas
+
 ✅ Visualized insights clearly for decision-makers
 
 📊 Key Insights (What Matters to Business)
 
 💎 Customer value is highly skewed — a small segment drives most revenue
 
-🍷 Wines & Meat Products dominate spending
+🍷 Wines & Meat Products dominate overall spending
 
 🏬🌐 Store and Web are the primary purchase channels
 
@@ -35,17 +42,17 @@ These insights justify segment-based marketing over mass campaigns.
 🧩 Customer Segments Identified
 Segment	Business Meaning
 ⭐ High-Value Loyalists	Core revenue drivers; high income & spend
-🚀 Aspirational Spenders	Mid-value, promotion-sensitive
-📱 Convenience-Oriented Shoppers	Under-monetized; high upside
+🚀 Aspirational Spenders	Mid-value, promotion-sensitive customers
+📱 Convenience-Oriented Shoppers	Under-monetized segment with high upside
 🧊 Low-Value / Entry Customers	Low spend; low marketing ROI
 
-Clusters are statistically distinct and visually validated.
+✔ Clusters are statistically distinct and visually validated.
 
 📌 Business Recommendations
 
-🎯 Prioritize High-Value Loyalists for retention & premium campaigns
+🎯 Prioritize High-Value Loyalists for retention and premium campaigns
 
-📈 Grow Convenience-Oriented Shoppers via personalization
+📈 Grow Convenience-Oriented Shoppers through personalization
 
 🎁 Target Aspirational Spenders selectively with promotions
 
@@ -62,8 +69,3 @@ Matplotlib, Seaborn
 Scikit-learn
 
 📦 Modular project structure (src/, reproducible pipeline)
-
-
-✔ Business-first thinking
-✔ Clean, production-style code
-✔ Clear storytelling with visu
