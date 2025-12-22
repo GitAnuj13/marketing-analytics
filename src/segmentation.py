@@ -18,3 +18,27 @@ def run_segmentation(df, k=4):
     plt.close()
 
     return df
+def label_clusters(df):
+    cluster_map = {
+        0: "Aspirational Spenders",
+        1: "Low-Value / Entry Customers",
+        2: "High-Value Loyalists",
+        3: "Convenience-Oriented Shoppers"
+    }
+
+    df["Cluster_Name"] = df["Cluster"].map(cluster_map)
+    return df
+def cluster_summary(df):
+    summary = (
+        df.groupby("Cluster_Name")[[
+            "Income", "Total_Spend", "Age", "Total_Kids", "Recency"
+        ]]
+        .mean()
+        .round(1)
+    )
+
+    print("\nCluster Summary (Mean Values):")
+    print(summary)
+
+    return summary
+
