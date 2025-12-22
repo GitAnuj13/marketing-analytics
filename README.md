@@ -31,32 +31,32 @@ This project solves that problem using EDA + customer segmentation to support se
 All figures below are generated programmatically by the Python pipeline and saved automatically.
 
 1️⃣ Customer Value Distribution
-<p align="center"> <img src="figures/numeric_distributions.png" width="700"> </p> <p align="center"><i>Income and total spend are right-skewed, indicating strong concentration of customer value.</i></p>
+<p align="center"> <img src="FIGURES/numeric_distributions.png" width="700"> </p> <p align="center"><i>Income and total spend are right-skewed, indicating strong concentration of customer value.</i></p>
 
 Insight:
 A small portion of customers contributes disproportionately to revenue, justifying segmentation over average-based analysis.
 
 2️⃣ Product Category Revenue Drivers
-<p align="center"> <img src="figures/avg_spend_products.png" width="700"> </p> <p align="center"><i>Wines and meat products dominate total customer spending.</i></p>
+<p align="center"> <img src="FIGURES/avg_spend_products.png" width="700"> </p> <p align="center"><i>Wines and meat products dominate total customer spending.</i></p>
 
 Insight:
 Premium product categories drive most revenue, highlighting opportunities for targeted upsell and cross-sell strategies.
 
 3️⃣ Channel Usage Patterns
-<p align="center"> <img src="figures/channel_usage.png" width="650"> </p> <p align="center"><i>Store and web channels account for the majority of customer transactions.</i></p>
+<p align="center"> <img src="FIGURES/channel_usage.png" width="650"> </p> <p align="center"><i>Store and web channels account for the majority of customer transactions.</i></p>
 
 Insight:
 Marketing effectiveness depends heavily on channel strategy rather than uniform outreach.
 
 🧩 Customer Segmentation
 4️⃣ Income vs Total Spend (K-Means Clusters)
-<p align="center"> <img src="figures/segments_income_spend.png" width="700"> </p> <p align="center"><i>Clear separation between high-value, mid-value, and low-value customer segments.</i></p>
+<p align="center"> <img src="FIGURES/segments_income_spend.png" width="700"> </p> <p align="center"><i>Clear separation between high-value, mid-value, and low-value customer segments.</i></p>
 
 Insight:
 Customer segments are visually distinct, validating the clustering approach and confirming meaningful differences in value.
 
 5️⃣ Campaign Response vs Spend
-<p align="center"> <img src="figures/spend_vs_response.png" width="650"> </p> <p align="center"><i>Customers who respond to campaigns consistently exhibit higher total spend.</i></p>
+<p align="center"> <img src="FIGURES/spend_vs_response.png" width="650"> </p> <p align="center"><i>Customers who respond to campaigns consistently exhibit higher total spend.</i></p>
 
 Insight:
 Campaign responsiveness correlates strongly with customer value, reinforcing the importance of targeted marketing.
