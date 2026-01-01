@@ -18,6 +18,8 @@ def main():
     run_campaign_model(df)
     cluster_summary(df)
     print("Pipeline completed successfully")
+    df.to_csv("data/processed/marketing_final.csv", index=False)
+    print("Final dataset exported for Power BI")
 
 if __name__ == "__main__":
     main()
