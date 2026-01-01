@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Power BI cache
+*.pbi.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large raw data (optional)
+data/raw/
